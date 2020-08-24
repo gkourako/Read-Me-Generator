@@ -42,11 +42,31 @@ const questions = [
   {
     // Contributing
     type: "input",
-    message: "Are there any contributers to your application",
+    message: "If you would like users to contribute to your application, then give clear and consice instructions on how to do so.",
     name: "license",
 
   },
-  
+  {
+    // Tests
+    type: "input",
+    message: "How do your users test your applicaton?",
+    name: "license",
+
+  },
+  {
+    // Github
+    type: "input",
+    message: "What is your Git Hub Username?",
+    name: "githubUsername",
+
+  },
+  {
+    // Email
+    type: "input",
+    message: "For alternative methods of contact, enter your email address",
+    name: "email",
+
+  },
 ];
 
 // function to write README file

@@ -23,14 +23,14 @@ const questions = [
   {
     // Installation
     type: "input",
-    message: "How does the user install your application? Be clear and consice with your instructions",
+    message: "How does the user install your application? Be clear and concise with your instructions",
     name: "installation",
   },
   {
     // Usage
     type: "input",
     message: "How does the user use your application to its fullest extent?",
-    name: "",
+    name: "usage",
   },
   {
     // License
@@ -43,14 +43,14 @@ const questions = [
     // Contributing
     type: "input",
     message: "If you would like users to contribute to your application, then give clear and consice instructions on how to do so.",
-    name: "license",
+    name: "contributing",
 
   },
   {
     // Tests
     type: "input",
     message: "How do your users test your applicaton?",
-    name: "license",
+    name: "tests",
 
   },
   {

@@ -34,9 +34,10 @@ const questions = [
   },
   {
     // License
-    type: "input",
+    type: "list",
     message: "What kind of licensing does your application have?",
     name: "license",
+    choices: ["Apache", "GNU", "MIT"]
 
   },
   {
@@ -70,9 +71,9 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
-  // fs.writeFile()
-}
+// function writeToFile(fileName, data) {
+//   fs.writeFile("README.md")
+// }
 
 // function to initialize program
 function init() {
@@ -83,7 +84,10 @@ function init() {
     const md = generateMarkdown(answers);
     console.log(md)
     //  pass result
-     writeToFile("yourreadMe.md", md)
+     fs.writeFile("README.md", md, err =>{
+
+
+     })
   });
 
 }

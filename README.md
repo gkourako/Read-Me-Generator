@@ -1,7 +1,7 @@
-# asdf
+# Automated README Generator
 ## Description
 
-adsf
+This application allows users to generate a professional README with ease
  ## Table of Contents
 
  1. [Installation](#installation)
@@ -13,25 +13,25 @@ adsf
 
 ## Installation
 
-adsf
+Simply run index.js in your terminal and follow the instructions!
 
 ## Usage
 
-adfa
+Follows the instructions and run the program in Node! 
 
 ## License
 
-![github license](https://img.shields.io/badge/license-Apache-blue.svg)
+![github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Contributing
 
-adsf
+I would not like any more contributions, but thank you for the thought.
 
 ## Tests
 
-adsf
+No testing required, just run it.
 
 ## Questions
 
-You made it this far! If you have questions contact me on [GitHub] (http://github.com/adsf).  If not you can email me at asdf
+You made it this far! If you have questions contact me on [GitHub] (http://github.com/gkourako).  If not you can email me at georgekourakos4@gmail.com
 

@@ -23,7 +23,7 @@ ${data.usage}
 
 ## License
 
-${data.license}
+![git license](https://shields.io/category/license-${data.license}-blue.svg)
 
 ## Contributing
 

@@ -83,7 +83,7 @@ function init() {
     const md = generateMarkdown(answers);
     console.log(md)
     //  pass result
-    //  writeToFile("README.md", md):
+     writeToFile("yourreadMe.md", md)
   });
 
 }
